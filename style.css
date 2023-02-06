@@ -1,0 +1,29 @@
+body {
+    font-family: 'Unbounded', cursive;
+    margin: 0;
+}
+
+.section-1 {
+    text-align: center;
+    padding: 300px 0px;
+    background-image: url(images/banner.jpg);
+}
+
+.section-1 h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.section-1 p {
+    color: orange;
+    padding: 0px 60px;
+    margin-bottom: 30px;
+}
+
+#donate-button-1 a {
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px;
+    margin-top: 0px;
+}
