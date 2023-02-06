@@ -7,6 +7,8 @@ body {
     text-align: center;
     padding: 300px 0px;
     background-image: url(images/banner.jpg);
+    background-color: rgb(133, 126, 126);
+    background-blend-mode: multiply;
 }
 
 .section-1 h1 {
@@ -15,15 +17,72 @@ body {
 }
 
 .section-1 p {
-    color: orange;
+    color: white;
     padding: 0px 60px;
     margin-bottom: 30px;
 }
 
 #donate-button-1 a {
     text-decoration: none;
-    color: black;
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px;
-    margin-top: 0px;
+    color: white;
+    background-color: rgb(192, 83, 83);
+    padding: 15px 20px;
+    border-radius: 7px;
+}
+
+.section-2 {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.donation-amount {
+    display: flex;
+    align-items: center;
+}
+
+#tk-100 {
+    width: 100%;
+    background-color: rgb(254, 252, 252);
+    margin-left: 25%;
+    margin-right: 10px;
+    padding: 40px 15px;
+    color: rgb(59, 55, 55);
+
+}
+
+#tk-200 {
+    width: 100%;
+    background-color: rgb(243, 236, 236);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 40px 15px;
+    color: red;
+    border: 2px solid red;
+}
+
+#tk-500 {
+    width: 100%;
+    background-color: rgb(254, 252, 252);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 40px 15px;
+    color: rgb(59, 55, 55);
+}
+
+#tk-1000 {
+    width: 100%;
+    background-color: rgb(254, 252, 252);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 40px 15px;
+    color: rgb(59, 55, 55);
+}
+
+#tk-5000 {
+    width: 100%;
+    background-color: rgb(254, 252, 252);
+    margin-left: 10px;
+    margin-right: 25%;
+    padding: 40px 15px;
+    color: rgb(59, 55, 55);
 }
