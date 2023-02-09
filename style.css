@@ -105,20 +105,47 @@ body {
 #food-for-family {
     width: 100%;
     margin: 20px 20px 100px 200px;
-    padding: 20px 20px 300px 20px;
+    padding: 20px 20px 20px 20px;
     background-color: rgb(187, 226, 242);
+    text-align: left;
+    box-shadow: 10px 10px 20px gray;
+}
+
+#food-for-family img {
+    display: block;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 #shelter-for-family {
     width: 100%;
     margin: 20px 20px 100px 20px;
-    padding: 20px 20px 300px 20px;
+    padding: 20px 20px 20px 20px;
     background-color: rgb(245, 223, 226);
+    text-align: left;
+    box-shadow: 10px 10px 20px gray;
+}
+
+#shelter-for-family img {
+    display: block;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 #education-for-children {
     width: 100%;
     margin: 20px 200px 100px 20px;
-    padding: 20px 20px 300px 20px;
+    padding: 20px 20px 20px 20px;
     background-color: rgb(232, 216, 169);
+    text-align: left;
+    box-shadow: 10px 10px 20px gray;
+}
+
+#education-for-children img {
+    display: block;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
